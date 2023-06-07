@@ -2,7 +2,7 @@ window.addEventListener("DOMContentLoaded", function () {
 	"use strict";
 
 	const accordion = () => {
-		const btns = document.querySelectorAll(".p9");
+		const btns = document.querySelectorAll(".div16");
 		btns.forEach((btn) => {
 			btn.addEventListener("click", function () {
 				this.classList.toggle("active-style");

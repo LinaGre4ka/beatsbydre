@@ -6,7 +6,8 @@
 }
 
 header {
-    background-image: url("img/back.png");
+	background-color: #E86564;
+/*     background-image: url("img/back.png"); */
     /* background-repeat: no-repeat; */
 }
 

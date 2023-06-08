@@ -500,7 +500,7 @@ footer {
     line-height: 140%;
     color: #000000;
     opacity: 0.7;
-    transition: 0.4s ease-in-out;
+    transition-duration: 400ms;
 }
 
 .cook {
@@ -634,6 +634,7 @@ footer {
     border-radius: 50px;
     min-height: 180px;
     align-items: center;
+    transition-duration: 400ms;
 }
 
 .div24 h1 {
@@ -674,6 +675,7 @@ footer {
 
 .div10 ul li.active-class {
     border-bottom: 3px solid #E86564;
+    transition-duration: 400ms;
 }
 
 .kek {
@@ -746,6 +748,45 @@ a {
 
 html {
     scroll-behavior: smooth;
+}
+
+.pop:hover, .prev:hover, .next:hover {
+    transition-duration: 100ms;
+    transform: scale(1.2, 1.2);
+}
+
+.div20 ul li:hover, .div21 img:hover {
+    transition-duration: 100ms;
+    transform: scale(1.1, 1.1);
+}
+
+.menu__list li:hover {
+    transition-duration: 100ms;
+    font-weight: 510;
+}
+
+.div2 button:hover {
+    transition-duration: 150ms;
+    background: #FF4948;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    padding: 13px 28px;   
+}
+
+.type2:hover {
+    transition-duration: 150ms;
+    color: #FF4948;
+    background: #FFFFFF;
+    border: 2px solid #FF4948;
+    padding: 13px 28px;
+}
+
+.cookies__btn:hover {
+    transition-duration: 150ms;
+    color: #E86564;
+    background-color: #FFFFFF;
+    padding: 9px 23px;
+    border: 2px solid #E86564;
 }
 
 @media(max-width: 1240px) {

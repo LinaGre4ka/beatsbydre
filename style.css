@@ -218,7 +218,7 @@ nav {
     line-height: 130%;
     text-align: center;
     color: #180202;
-    margin-bottom: 25px;
+    margin-bottom: 17px;
 }
 
 .p8 {
@@ -237,6 +237,9 @@ nav {
     display: flex;
     flex-direction: row;
     margin-bottom: 146px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .div12 {
@@ -318,7 +321,6 @@ nav {
     color: #000000;
     max-width: 390px;
     margin-bottom: 30px;
-    margin-top: 69px;
 }
 
 .div16 {
@@ -348,6 +350,10 @@ nav {
     display: flex;
     flex-direction: row;
     margin-bottom: 130px;
+}
+
+.div17 img {
+    display: block;
 }
 
 .div18 {
@@ -627,6 +633,7 @@ footer {
     padding-right: 40px;
     border-radius: 50px;
     min-height: 180px;
+    align-items: center;
 }
 
 .div24 h1 {
@@ -739,4 +746,230 @@ a {
 
 html {
     scroll-behavior: smooth;
+}
+
+@media(max-width: 1240px) {
+    .img0, .lol {
+        zoom: 80%;
+    }
+
+    .div5 img {
+        zoom: 90%;
+    }
+
+    h1 {
+        zoom: 90%;
+    }
+
+    .div17 img {
+        display: none;
+    }
+
+    section, .div1 {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
+
+@media(max-width: 920px) {
+    .div2 h1 {
+        zoom: 80%;
+    }
+
+    .cookies {
+        zoom: 80%;
+    }
+
+    .div17 {
+        zoom: 80%;
+    }
+
+    .div1 {
+        zoom: 87%;
+    }
+}
+
+@media(max-width: 850px) {
+    nav {
+        zoom: 85%;
+    }
+
+    .div2, .div12, h1 {
+        zoom: 85%;
+    }
+
+    .img0, .lol {
+        zoom: 70%;
+    }
+
+    .div22 {
+        zoom: 85%;
+    }
+
+    footer {
+        zoom: 90%;
+    }
+
+    .div1 {
+        zoom: 83%;
+    }
+
+    .div14 {
+        zoom: 85%;
+    }
+}
+
+@media(max-width: 760px) {
+    .div1 {
+        zoom: 75%;
+    }
+
+    .cookies {
+        zoom: 70%;
+    }
+
+    .div21 img {
+        margin-right: 15px;
+    }
+
+    .p8 {
+        max-width: 400px;
+    }
+
+    .div18 {
+        zoom: 80%;
+    }
+}
+
+@media(max-width: 600px) {
+    .div10 h1, .div10 p, .div10 ul {
+        zoom: 70%;
+    }
+
+    .div18 {
+        zoom: 65%;
+    }
+
+    .div1 {
+        zoom: 75%;
+    }
+
+    nav, footer {
+        zoom: 75%;
+    }
+
+    .div12 {
+        zoom: 75%;
+    }
+
+    h1 {
+        zoom: 70%;
+    }
+
+    .div1 {
+        zoom: 65%;
+    }
+
+    .div14, .div22 {
+        zoom: 70%;
+    }
+
+    .cookies {
+        zoom: 60%;
+    }
+}
+
+@media(max-width: 500px) {
+    footer, nav {
+        zoom: 65%;
+    }
+
+    .div22 {
+        zoom: 60%;
+    }
+
+    .div4 {
+        zoom: 80%;
+    }
+    
+    .div12 {
+        zoom: 70%;
+    }
+
+    .div14 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div15 h1 {
+        text-align: center;
+    }
+
+    .kek {
+        max-width: 290px;
+    }
+
+    .div15 {
+        min-height: 420px;
+        max-width: 270px;
+    }
+
+    .div14 {
+        margin-bottom: 70px;
+    }
+
+    .div2 {
+        margin-left: 50px;
+    }
+
+    .cookies {
+        zoom: 45%;
+    }
+}
+
+@media(max-width: 500px) {
+    nav, footer {
+        zoom: 50%;
+    }
+
+    .div12 {
+        zoom: 55%;
+    }
+
+    .div1 {
+        flex-direction: column-reverse;
+    }
+
+    .img0 {
+        margin-top: 60px;
+    }
+
+    .div2 {
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    .div2 p, .div2 h1 {
+        text-align: center;
+    }
+
+    .div20 ul {
+        flex-direction: column;
+    }
+
+    .div22 {
+        zoom: 50%;
+    }
+
+    .div18 {
+        zoom: 50%;
+    }
+
+    .div10 h1, .div10 p, .div10 ul {
+        zoom: 60%;
+    }
+
+    .lol {
+        zoom: 60%;
+    }
 }

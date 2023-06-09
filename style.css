@@ -964,7 +964,7 @@ html {
     }
 
     .cookies {
-        zoom: 45%;
+        zoom: 60%;
     }
 }
 
@@ -1012,5 +1012,9 @@ html {
 
     .lol {
         zoom: 60%;
+    }
+
+    .cookies {
+        zoom: 50%;
     }
 }
